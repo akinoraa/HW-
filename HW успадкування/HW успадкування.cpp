@@ -1,4 +1,4 @@
-﻿
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -351,7 +351,6 @@ public:
 
 int main()
 {
-    // Тестирование класса Aspirant
     {
         Aspirant one("Veronika", 18, "Design");
         one.print();
@@ -359,7 +358,6 @@ int main()
         cout << "Name: " << one.getName() << "\n";
     }
 
-    // Тестирование классов транспорта
     {
         Car car;
         Scooter scooter;
@@ -371,13 +369,11 @@ int main()
         Airplane airplane;
         Train train;
 
-        // Пример использования методов класса Transport
         double distance = 100.0;
         cout << "Car Time: " << car.calculateTime(distance) << " hours\n";
         cout << "Bus Cost: " << bus.calculateCost(distance) << " units\n";
     }
 
-    // Тестирование классов геометрии
     {
         Ellipse ellipse("Blue", "Pencil", 2, 10.0, 5.0);
         Rectangle rectangle("Red", "Marker", 3, 20.0, 15.0);
